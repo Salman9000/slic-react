@@ -1,0 +1,151 @@
+/*==================================================================================
+    Custom Stylesheet (Any custom styling you want to apply should be defined here).
+====================================================================================*/
+
+h1,
+.h1 {
+  font-size: 70px;
+  line-height: 65px;
+  font-weight: 600;
+}
+.tagline {
+  font-size: 25px;
+  line-height: 30px;
+}
+
+.single-author-imge2 img {
+  width: inherit !important;
+
+  margin-bottom: 20px;
+}
+
+.center .single-author-imge2 img {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.padding {
+  padding: 20px;
+  font-size: 15px;
+}
+.box {
+  height: 100%;
+  width: 100%;
+
+  padding: 10px;
+}
+.pointpara {
+  padding: 25px;
+}
+.header-menu > ul > li > a {
+  padding: 23px 0 23px;
+  font-size: 16px;
+  color: white;
+  font-weight: 500;
+}
+.downloadnow {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px !important ;
+}
+.user-interact-image {
+  -webkit-animation: bounce 2s ease-in-out 1s infinite alternate;
+  animation: bounce 2s ease-in-out 1s infinite alternate;
+}
+
+.page-title-wrap.faq-wrap {
+  padding-top: 150px;
+  padding-bottom: 50px;
+  position: relative;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: 20% 80%;
+  background-color: white;
+}
+
+.page-title-content h1.h2.faq {
+  font-size: 50px;
+  color: rgb(111, 108, 127);
+  font-weight: 600;
+}
+
+.page-title-wrap.terms-wrap {
+  padding-top: 150px;
+  padding-bottom: 50px;
+  position: relative;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: 20% 80%;
+  background-color: white;
+}
+
+.page-title-content h1.h2.terms {
+  font-size: 50px;
+  color: rgb(111, 108, 127);
+  font-weight: 600;
+}
+
+.panel {
+  padding: 2px 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  font-size: 13px;
+  font-weight: 300;
+  color: #7e7b99;
+  transition: max-height 0.2s ease-out;
+}
+
+.accordion:hover {
+  background-color: #ccc;
+}
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 13px;
+  transition: 0.4s;
+  color: #201c1f;
+  font-size: 15px;
+  font-weight: 300;
+  position: relative;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.slideshow-container {
+  /* position: relative; */
+  display: block;
+  /* background: #f1f1f1f1; */
+}
+.mySlides {
+  display: none;
+  /* padding: 80px; */
+  /* -webkit-box-align: center;
+  align-items: center; */
+  /* text-align: center; */
+}
+/* .prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+} */
+.fade2 {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
